@@ -1,5 +1,5 @@
 /*jshint esversion:6*/
-const baseUrl = 'https://calm-wildwood-23042.herokuapp.com/';
+const baseUrl = 'https://calm-wildwood-23042.herokuapp.com';
 function PostService($http){
   const postUrl = `${baseUrl}/posts`;
   return {

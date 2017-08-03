@@ -1,5 +1,6 @@
 /*jshint esversion:6*/
 const PostDataResolve = require('./resolves/post-data.resolve');
+console.log(PostDataResolve);
 function RouterConfig($routeProvider){
   $routeProvider
     .when('/', {

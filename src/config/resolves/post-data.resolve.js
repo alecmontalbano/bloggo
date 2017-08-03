@@ -1,6 +1,6 @@
 function PostDataResolve(PostService){
   return PostService.get();
 }
-PostDataResolve.$inject = ['post'];
+PostDataResolve.$inject = ['posts'];
 
 module.exports = PostDataResolve;
